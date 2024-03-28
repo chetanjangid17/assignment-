@@ -5,7 +5,9 @@
     font-family: Poppins;
 }
 
-
+body{
+  overflow-x:hidden;
+}
 .navbar ul li{
     justify-content: space-between;
     display: inline;
