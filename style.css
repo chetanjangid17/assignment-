@@ -3,11 +3,13 @@
     padding: 0;   
     box-sizing: border-box;
     font-family: Poppins;
+   
+}
+.content{
+  overflow-x: hidden;
+  
 }
 
-body{
-  overflow-x:hidden;
-}
 .navbar ul li{
     justify-content: space-between;
     display: inline;
@@ -115,12 +117,11 @@ body{
 .overview{
     background: #000;
     height: 100vh;
+   
+  
     
 }
-.container{
-    background: white;
-    height: 100vh;
-}
+
 h1{
     color: white;
     text-align: center;
@@ -266,7 +267,7 @@ h5{
 
   /* Card image */
   .card-img {
-    max-width: 100%; /* Ensure the image doesn't exceed the card width */
+    max-width: 100%; /* Ensure the image dhomeesn't exceed the card width */
     max-height: 200px; /* Adjust the height as needed */
     margin: 0 auto; /* Center the image horizontally */
     display: block; /* Ensure the margin auto works properly */
@@ -400,10 +401,11 @@ h5{
 
 .p3{
   color:rgb(247, 247, 247);
-  font-size:1.03rem;
+  font-size:2vh;
   font-weight: 500; 
   padding-left: 3%;
-    padding-bottom: 20px;
+  padding-bottom: 20px;
+ 
   
 }
 .footer {
